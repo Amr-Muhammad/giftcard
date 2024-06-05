@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, rgb(248, 231, 78), rgb(226, 194, 52), rgb(224, 182, 66), rgb(221, 169, 57), rgb(189, 139, 47));
+    height: 100dvh;
+    font-family: "Goudy Bookletter 1911", serif;
+}
+
+
+.container {
+    height: 90%;
+}
+
+.allCards {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.firstRow {
+    display: flex;
+}
+
+.secondRow {
+    display: flex;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+h1 {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    padding: 10px 0px;
+    color: rgba(57, 117, 94);
+    background-image: linear-gradient(to bottom, rgb(255, 187, 0), rgb(248, 236, 165), rgb(248, 236, 165), rgb(248, 236, 165), rgb(255, 187, 0));
+    font-size: 52px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.thirdRow{
+    text-align: center;
+    color: rgba(57, 117, 94);
+    font-size: 20px;
+}
+
+textarea{
+    border: 1px solid black;
+    resize: none;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: white;
+    font-style: italic;
+    transition: all 0.2s;
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 5px black;
+    position: relative;
+    bottom: 1px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+input[type='radio']:checked{
+    color: red;
+    background-color: red;
+}
